@@ -1,2 +1,2 @@
-# embl-llm-metrics
+# EMBLLMetrics
 LLM Benchmarking 
