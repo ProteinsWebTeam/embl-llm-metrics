@@ -28,9 +28,7 @@ The `tasks` folder needs to be referenced with the `--include-path` param every 
 
   ![image](https://github.com/user-attachments/assets/57e52f7d-bb1f-4f15-8875-95321c08e111)
 
-
-- process-results.sh
-- publush-results.sh
+- publish-results.sh
 
 ## Pre-usage steps
 - log in to the `slurm` cluster
