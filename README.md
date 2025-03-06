@@ -12,7 +12,7 @@ To achieve this, EMBLLMetrics uses the [Language Model Evaluation Harness](https
 Folder containing `.yml` and `.py` configuration files (read more about this [New Task Guide](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/new_task_guide.md), [Task Guide](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/task_guide.md)). As mentioned in the guides, the tasks need to reference a dataset (HF or local one). The HF datasets we're currently using for testing are [bioc_llm](https://huggingface.co/datasets/apolignano/bioc_llm) and [biored_subset](https://huggingface.co/datasets/apolignano/biored_subset). These can be used as a reference on how to create a new one.
 
 
-This folder needs to be referenced every time the `lm_eval` command is executed with the `--include-path` param. It's the folder where the framework will look into for valid tasks. More on this below.
+The `tasks` folder needs to be referenced with the `--include-path` param every time the `lm_eval` command is executed. It's the folder where the framework will look into for valid tasks. More on this below.
 
 #### Scripts
 - compare.sh
