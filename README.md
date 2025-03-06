@@ -10,7 +10,8 @@ To achieve this, EMBLLMetrics uses the [Language Model Evaluation Harness](https
 ### Contents
 
 #### Tasks
-Folder containing `.yml` and `.py` configuration files. Read more about this: [New Task Guide](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/new_task_guide.md), [Task Guide](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/task_guide.md).
+Folder containing `.yml` and `.py` configuration files (read more about this [New Task Guide](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/new_task_guide.md), [Task Guide](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/task_guide.md)).
+
 This folder needs to be referenced every time the `lm_eval` command is executed with the `--include-path` param. It's the folder where the framework will look into for valid tasks. 
 
 #### Scripts
