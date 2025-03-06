@@ -56,7 +56,7 @@ def generate_html(results, output_file="results.html"):
         f.write("</body></html>")
 
 def commit(output_file):
-    subprocess.run(["git", "add", output_file], check=True)
+    subprocess.run(["git", "add", "."], check=True)
     subprocess.run(["git", "commit", "-m", f"Update {output_file}"], check=True)
     subprocess.run(["git", "push"], check=True)
 
