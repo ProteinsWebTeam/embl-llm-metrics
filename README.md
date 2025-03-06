@@ -15,7 +15,20 @@ Folder containing `.yml` and `.py` configuration files (read more about this [Ne
 The `tasks` folder needs to be referenced with the `--include-path` param every time the `lm_eval` command is executed. It's the folder where the framework will look into for valid tasks. More on this below.
 
 #### Scripts
-- compare.sh
+
+- ##### compare_resps.sh - Compare ground truth (targe) with unfiltered and filtered answers from the LLM (last benchmark).
+
+  Command structure
+  
+  ```./compare_resps.sh <results_path> <modelcompany__modelname>```
+
+  Example
+  
+  ```./compare_resps.sh ../results google__gemma-2-2b-it```
+
+  ![image](https://github.com/user-attachments/assets/57e52f7d-bb1f-4f15-8875-95321c08e111)
+
+
 - process-results.sh
 - publush-results.sh
 
@@ -60,6 +73,6 @@ lm_eval
     --model openai-completions \
     --model_args model=o1-mini \
     --tasks bioc_llm_api \ 
-    --output_path=/hps/software/users/agb/interpro/apolignano/embl_llm_metrics/results \ 
+    --output_path=/hps/software/users/agb/interpro/embl_llm_metrics/results \ 
     --log_samples
 ```
