@@ -20,11 +20,11 @@ The `tasks` folder needs to be referenced with the `--include-path` param every 
 
   Command structure
   
-  ```./compare_resps.sh <results_path> <modelcompany__modelname>```
+  ```./compare_resps.sh <modelcompany__modelname>```
 
   Example
   
-  ```./compare_resps.sh ../results google__gemma-2-2b-it```
+  ```./compare_resps.sh google__gemma-2-2b-it```
 
   ![image](https://github.com/user-attachments/assets/57e52f7d-bb1f-4f15-8875-95321c08e111)
 
