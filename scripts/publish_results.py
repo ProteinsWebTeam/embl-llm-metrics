@@ -3,6 +3,7 @@ import json
 import glob
 import subprocess
 from collections import defaultdict
+from datetime import datetime
 
 def parse_results(directory):
     data = defaultdict(dict)
@@ -53,7 +54,9 @@ def generate_html(results, output_file="results.html"):
             
             f.write("</table><br>")
         
+        today = datetime.today()
         f.write("</body></html>")
+        f.write(f"{today}")
 
 def commit(output_file):
     subprocess.run(["git", "pull"], check=True)
