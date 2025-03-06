@@ -20,4 +20,4 @@ jobs:
         with:
           branch: leaderboard 
           folder: results  
-          clean: true 
+          clean: false 
