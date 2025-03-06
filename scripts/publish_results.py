@@ -57,15 +57,20 @@ def generate_html(results, output_file="results.html"):
         f.write("</body></html>")
 
 def commit_to_branch(branch_name, output_file):
+
+    results_data = parse_results("../results") 
+    
+    subprocess.run(["cd", ".."], check=True)
     subprocess.run(["git", "checkout", branch_name], check=True)
+
+    generate_html(results_data, output_file)
+
     subprocess.run(["git", "add", output_file], check=True)
     subprocess.run(["git", "commit", "-m", f"Update {output_file}"], check=True)
     subprocess.run(["git", "push", "origin", branch_name], check=True)
 
 if __name__ == "__main__":
-    results_dir = "../results"  # Change if needed
-    branch_name = "leaderboard"  # Change to your desired branch
-    results_data = parse_results(results_dir)
-    output_file = "../index.html"
-    generate_html(results_data, output_file)
+    branch_name = "leaderboard"
+    output_file = "index.html"
     commit_to_branch(branch_name, output_file)
+
