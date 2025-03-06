@@ -73,6 +73,6 @@ lm_eval
     --model openai-completions \
     --model_args model=o1-mini \
     --tasks bioc_llm_api \ 
-    --output_path=/hps/software/users/agb/interpro/apolignano/embl_llm_metrics/results \ 
+    --output_path=/hps/software/users/agb/interpro/embl_llm_metrics/results \ 
     --log_samples
 ```
