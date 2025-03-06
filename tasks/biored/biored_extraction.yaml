@@ -1,0 +1,46 @@
+task: biored 
+dataset_path: apolignano/biored_subset
+output_type: generate_until
+training_split: null
+fewshot_split: null
+test_split: test
+doc_to_text: '
+
+Extract the gene name from this text: 
+
+STARTOFTEXT
+{{passage}} 
+ENDOFTEXT
+
+Output ONLY the gene name enclosed in << >> tags and followed by two blank lines'
+
+
+
+doc_to_target: "{{text}}"
+repeats: 1
+filter_list:
+  - name: "score-first"
+    filter:
+      - function: "regex"
+        regex_pattern: "(?i)<<([A-Za-z0-9 ]+)>>"
+      - function: "take_first"
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: false
+    regexes_to_ignore:
+      - "\\.$"
+      - ","
+      - "\n"
+      - "\\\\"
+      - '"'
+generation_kwargs:
+  until:
+    - "</s>"
+    - "/n/n"
+    - "Q:"
+    - "<|im_end|>"
+metadata:
+  version: 1.0

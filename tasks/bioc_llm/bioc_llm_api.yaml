@@ -1,0 +1,35 @@
+task: bioc_llm_api
+dataset_path: apolignano/bioc_llm
+output_type: generate_until
+training_split: null
+fewshot_split: null
+test_split: test
+doc_to_target: !function utils_bioc_llm.doc_to_target
+doc_to_text: !function utils_bioc_llm.doc_to_text_api
+process_results: !function utils_bioc_llm.process_results
+filter_list:
+  - name: "testing"
+    filter:
+      - function: "regex_custom"
+        regex_pattern: "<annotation[^>]*>"
+repeats: 1
+
+metric_list:
+  - metric: recall
+    aggregation: mean
+    higher_is_better: true
+  - metric: precision
+    aggregation: mean
+    higher_is_better: true
+  - metric: f1
+    aggregation: mean
+    higher_is_better: true
+generation_kwargs:
+  max_tokens: 1024
+  until:
+    - "</s>"
+    - "Q:"
+    - "<|im_end|>"
+    - "<|end_of_text|>"
+metadata:
+  version: 1.1
