@@ -29,3 +29,14 @@ The `tasks` folder needs to be referenced with the `--include-path` param every 
   - activate the virtualenv
 
 
+#### Usage
+```
+lm_eval
+    --model <type_of_model> \
+    --model_args (pretrained=<hf_model_name>,parallelize=True|model=<api_model>) \
+    --include_path <tasks_folder_path>
+    --tasks <task_name> \
+    --output_path <path_where_to_store_results>
+    --batch_size 16
+    --log_samples 
+```
