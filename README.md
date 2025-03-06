@@ -29,14 +29,35 @@ The `tasks` folder needs to be referenced with the `--include-path` param every 
   - activate the virtualenv
 
 
-#### Usage
+## Usage
 ```
 lm_eval
     --model <type_of_model> \
-    --model_args (pretrained=<hf_model_name>,parallelize=True|model=<api_model>) \
+    --model_args (pretrained=<hf_model_name>,parallelize=True | model=<api_model>) \
     --include_path <tasks_folder_path>
     --tasks <task_name> \
     --output_path <path_where_to_store_results>
     --batch_size 16
     --log_samples 
+```
+
+#### HuggingFace model example
+```
+lm_eval
+--model hf /
+--model_args pretrained=google/gemma-2-2b-it,parallelize=True / 
+--include_path /hps/software/users/agb/interpro/apolignano/projects/embl_llm_metrics/tasks_test/
+--tasks bioc_llm_hf --batch_size 16 /
+--output_path=/hps/software/users/agb/interpro/apolignano/embl_llm_metrics/results
+--log_samples
+```
+
+#### OpenAI model example
+```
+lm_eval
+--model openai-completions \
+--model_args model=o1-mini \
+--tasks bioc_llm_api
+--output_path=/hps/software/users/agb/interpro/apolignano/embl_llm_metrics/results
+--log_samples
 ```
