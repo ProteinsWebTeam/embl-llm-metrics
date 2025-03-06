@@ -15,7 +15,15 @@ Folder containing `.yml` and `.py` configuration files (read more about this [Ne
 The `tasks` folder needs to be referenced with the `--include-path` param every time the `lm_eval` command is executed. It's the folder where the framework will look into for valid tasks. More on this below.
 
 #### Scripts
-- compare.sh
+
+##### compare_resps.sh - Compare ground truth (targe) with unfiltered and filtered answers from the LLM.
+
+Command structure
+```./compare_resps.sh <results_path> <model_name>```
+
+Example
+```./compare_resps.sh /hps/software/users/agb/interpro/apolignano/embl_llm_metrics DeepSeek-R1-Distill-Qwen-32B```
+
 - process-results.sh
 - publush-results.sh
 
