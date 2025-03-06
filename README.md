@@ -1,5 +1,4 @@
 # EMBLLMetrics
-LLM Benchmarking 
 
 ## Intro
 The goal of EMBLLMetrics is to benchmark open and commercial LLMs across a variety of EBI-relevant tasks.
