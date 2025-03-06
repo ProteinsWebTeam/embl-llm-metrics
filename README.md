@@ -1,13 +1,13 @@
 # EMBLLMetrics
 LLM Benchmarking 
 
-### Intro
+## Intro
 The goal of EMBLLMetrics is to benchmark open and commercial LLMs across a variety of EBI-relevant tasks.
 This will result in a leaderboard similar to [Open-LLM-Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/).
 To achieve this, EMBLLMetrics uses the [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) framework.
 
 
-### Contents
+## Contents
 
 #### Tasks
 Folder containing `.yml` and `.py` configuration files (read more about this [New Task Guide](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/new_task_guide.md), [Task Guide](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/task_guide.md)).
@@ -19,7 +19,7 @@ This folder needs to be referenced every time the `lm_eval` command is executed 
 - process-results.sh
 - publush-results.sh
 
-### Pre-usage steps
+## Pre-usage steps
 - log in to the `slurm` cluster
 - become `interpro`
 - switch shell to `bash`
