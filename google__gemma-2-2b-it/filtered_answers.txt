@@ -1,0 +1,231 @@
+[
+  ".\n\n<<SCN5A>>\n"
+]
+[
+  ".\n\n<<OPRM1>>\n"
+]
+[
+  ".\n\n<<CBR3>>\n<<NQO1>> \n"
+]
+[
+  ".\n\n<<DGUOK>>\n"
+]
+[
+  ".\n\n<<ADORA2A>>\n"
+]
+[
+  ".\n\n<<FBN1>>\n"
+]
+[
+  ".\n\n<<FBN1>>\n"
+]
+[
+  ".\n\n<<PKC-alpha>>\n"
+]
+[
+  ".\n\n<<STARTOFTEXT>>\nMOL1 is required for cambium homeostasis in Arabidopsis.\n<<ENDOFTEXT>>\n"
+]
+[
+  ".\n\n<<MOL1>>\n<<PXY>> \n"
+]
+[
+  ".\n\n<<GUCA1B>>\n"
+]
+[
+  ".\n\n<>>GUCA1B<<\n"
+]
+[
+  ".\n\n<<SLC12A3>>\n"
+]
+[
+  ".\n\n<<SLC30A8>>\n<<HHEX>>\n<<CDKN2A/B>>\n<<IGF2BP2>>\n<<FTO>>\n<<WFS1>>\n<<CDKAL1>>\n<<KCNQ1>>\n \n"
+]
+[
+  ".\n\n<<STARTOFTEXT>>\nSerotonin 6 receptor gene is associated with methamphetamine-induced psychosis in a Japanese population.\n<<ENDOFTEXT>> \n"
+]
+[
+  ".\n\n<<MYB>>\n<<PIK3CA>>\n<<ETS1>>\n<<NRAS>>\n<<SRC>>\n<<AKT1>>\n<<KIT>>\n<<RB1>>\n<<EGF>>\n<<HGF>>\n<<CDKN2A>>\n<<STAT3>>\n<<BCL2>>\n<<TNF>>\n<<BAX>>\n<<CASP8>>\n<<CTNNB1>>\n<<CDKN3>>\n<<FOXD3>>\n<<SERPINB5>>\n<<RUNX3>>\n \n"
+]
+[
+  ".\n\n<<STAR>>\nSerum Amyloid A Induces Inflammation, Proliferation and Cell Death in Activated Hepatic Stellate Cells. \n<<END>>\n\n\n"
+]
+[
+  ".\n\n<<SAA1>>\n<<SAA3>> \n"
+]
+[
+  ".\n\n<<IL12B>>\n"
+]
+[
+  ".\n\n<<IL12B>>\n"
+]
+[
+  ".\n\n<<BRAF>>\n"
+]
+[
+  ".\n\n<<BRAF>>\n"
+]
+[
+  ".\n\n<STARTOFTEXT>\nCFI-rs7356506 polymorphisms associated with Vogt-Koyanagi-Harada syndrome. \n<ENDOFTEXT> \n\n\n"
+]
+[
+  ".\n\n<< >> Complement factor I\n"
+]
+[
+  ".\n\n<<MEN1>>\n"
+]
+[
+  ".\n\n<<BRCA2>>\n"
+]
+[
+  ".\n\n<<Transgelin>>\n \n"
+]
+[
+  ".\n\n<strong class=\"gene-name\">HOOK1</strong>\n<strong class=\"gene-name\">SDCCAG8</strong>\n<strong class=\"gene-name\">ENAH/Mena</strong>\n<strong class=\"gene-name\">TNS1</strong>\n<strong class=\"gene-name\">EMB</strong>\n<strong class=\"gene-name\">BCL11B</strong>\n<strong class=\"gene-name\">PTPRD</strong> \n"
+]
+[
+  ".\n\n<<ANKH>>\n"
+]
+[
+  ".\n\n<<STAT4>>\n"
+]
+[
+  ".\n\n<<STAT4>>\n"
+]
+[
+  ".\n\n<<IL-6>>\n<<IL-10>>\n<<TNF-alpha>>\n<<IL-1>>\n<<IL-1R>>\n<<STAT3>>\n<<IL-6>>\n<<IL-10>>\n<<TNF-alpha>>\n<<IL-1>>\n<<IL-1R>>\n<<STAT3>>\n<<IL-6>>\n<<IL-10>>\n<<TNF-alpha>>\n<<IL-1>>\n<<IL-1R>>\n<<STAT3>>\n\n\n"
+]
+[
+  ".\n\n<<PKD1>>\n<<PKD2>>\n"
+]
+[
+  ".\n\n<<TSH-beta>>\n"
+]
+[
+  ".\n\n<<NDP>>\n"
+]
+[
+  ".\n\n<<IGF-1>>\n"
+]
+[
+  ".\n\n<<IGF-1>>\n"
+]
+[
+  ".\n\n<<FOXF2>>\n"
+]
+[
+  ".\n\n<<Pentraxin 1>>\n"
+]
+[
+  ".\n\n<<neuroserpin>>\n \n \n"
+]
+[
+  ".\n\n<span style=\"text-decoration:underline;\">Neuroserpin</span> \n"
+]
+[
+  ".\n\n<<IL-6>>\n<<TNF-alpha>> \n"
+]
+[
+  ".\n\n<<SSH1>>\n"
+]
+[
+  ".\n\n<<fibrinogen>>\n \n"
+]
+[
+  ".\n\n< >>FGA<< >>FGB<< >>FGG<< \n"
+]
+[
+  ".\n\n<<PI4KIIb>>\n \n"
+]
+[
+  ".\n\n<<PI4KIIb>>\n"
+]
+[
+  ".\n\n<<CenpH>>\n \n \n"
+]
+[
+  ".\n\n<<CenpH>>\n \n"
+]
+[
+  ".\n\n<<CRYBA3/A1>>\n"
+]
+[
+  ".\n\n<<Vitamin D-binding protein>>\n \n \n"
+]
+[
+  ".\n\n<<DBP>>\n"
+]
+[
+  ".\n\n< >>CYP4V2<< >>\n"
+]
+[
+  ".\n\n<<Neuregulin 2a>>\n"
+]
+[
+  ".\n\n<<CHRNA1>>\n<<CHRNB1>>\n<<CHRND>>\n<<RAPSN>> \n"
+]
+[
+  ".\n\n<< PCDH9 >>\n \n"
+]
+[
+  ".\n\n<<PIK3CA>>\n"
+]
+[
+  ".\n\n<<PIK3CA>>\n"
+]
+[
+  ".\n\n<<HMSH2>>\n"
+]
+[
+  ".\n\n<<ACE>>\n"
+]
+[
+  ".\n\n<<PPARa>>\n"
+]
+[
+  ".\n\n<<miniature chromosome maintenance 8>>\n"
+]
+[
+  ".\n\n<<MCM8>>\n"
+]
+[
+  ".\n\n<<ANGIOTENSINOGEN>>\n"
+]
+[
+  ".\n\n<<SLC34A3>>\n \n"
+]
+[
+  ".\n\n<<STARTOFTEXT>>\nVitamin D receptor expression is associated with PIK3CA and KRAS mutations in colorectal cancer.\n<<ENDOFTEXT>> \n"
+]
+[
+  ".\n\n<<DACH1>>\n"
+]
+[
+  ".\n\n<<endoglin>>\n"
+]
+[
+  ".\n\n<<CENTROSOMAL PROTEIN 55>>\n"
+]
+[
+  ".\n\n<<CEP55>>\n"
+]
+[
+  ".\n\n<<11b-HSD1>>\n"
+]
+[
+  ".\n\n<<FMR1>>\n"
+]
+[
+  ".\n\n<<STAR>>\n"
+]
+[
+  ".\n\n<<STAR>>\n"
+]
+[
+  ".\n\n<<STARTOFTEXT Growth-associated protein 43 >>\nENDOFTEXT \n"
+]
+[
+  ".\n\n<span style=\"text-decoration:underline;\">GAP43</span> \n"
+]
+[
+  ".\n\n<<ChAT>>\n"
+]
