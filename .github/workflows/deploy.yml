@@ -1,0 +1,23 @@
+name: Deploy Results to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Deploy results folder to leaderboard branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: leaderboard 
+          folder: results  
+          clean: true 
