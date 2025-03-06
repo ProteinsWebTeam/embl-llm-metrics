@@ -16,15 +16,15 @@ The `tasks` folder needs to be referenced with the `--include-path` param every 
 
 #### Scripts
 
-- ##### compare_resps.sh - Compare ground truth (targe) with unfiltered and filtered answers from the LLM.
+- ##### compare_resps.sh - Compare ground truth (targe) with unfiltered and filtered answers from the LLM (last benchmark).
 
   Command structure
   
-  ```./compare_resps.sh <results_path> <model_name>```
+  ```./compare_resps.sh <results_path> <modelcompany__modelname>```
 
   Example
   
-  ```./compare_resps.sh /hps/software/users/agb/interpro/apolignano/embl_llm_metrics DeepSeek-R1-Distill-Qwen-32B```
+  ```./compare_resps.sh ../results google__gemma-2-2b-it```
 
 - process-results.sh
 - publush-results.sh
