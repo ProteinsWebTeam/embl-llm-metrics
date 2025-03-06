@@ -26,6 +26,9 @@ The `tasks` folder needs to be referenced with the `--include-path` param every 
   
   ```./compare_resps.sh ../results google__gemma-2-2b-it```
 
+  ![image](https://github.com/user-attachments/assets/57e52f7d-bb1f-4f15-8875-95321c08e111)
+
+
 - process-results.sh
 - publush-results.sh
 
