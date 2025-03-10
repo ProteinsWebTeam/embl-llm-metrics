@@ -2,7 +2,7 @@
 
 ## Intro
 The goal of EMBLLMetrics is to benchmark open and commercial LLMs across a variety of EBI-relevant tasks.
-This will result in a leaderboard similar to [Open-LLM-Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/).
+This will result in a leaderboard (see the [leaderboard branch](https://github.com/ProteinsWebTeam/embl-llm-metrics/tree/leaderboard) and the [GitHub page](https://proteinswebteam.github.io/embl-llm-metrics/)) similar to [Open-LLM-Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/).
 To achieve this, EMBLLMetrics uses the [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) framework.
 
 
